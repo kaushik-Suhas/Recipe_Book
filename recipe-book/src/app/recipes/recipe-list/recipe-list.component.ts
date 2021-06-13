@@ -8,7 +8,13 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe','This is simply a test','https://upload.wikimedia.org/wikipedia/commons/3/3d/Samosa_Recipe_-_A_Mouth_Watering_Indian_Snack_Recipe_By_Sonia_Goyal_%2831078600701%29.jpg')
+    new Recipe('Samosa',
+    'Samosa is a deep fried pastry with aspiced filling usually made with potatoes, spices and herbs. Sometimes there are also made with minced meat.',
+    'https://upload.wikimedia.org/wikipedia/commons/3/3d/Samosa_Recipe_-_A_Mouth_Watering_Indian_Snack_Recipe_By_Sonia_Goyal_%2831078600701%29.jpg'),
+    new Recipe('Samosa',
+    'Samosa is a deep fried pastry with aspiced filling usually made with potatoes, spices and herbs. Sometimes there are also made with minced meat.',
+    'https://upload.wikimedia.org/wikipedia/commons/3/3d/Samosa_Recipe_-_A_Mouth_Watering_Indian_Snack_Recipe_By_Sonia_Goyal_%2831078600701%29.jpg')
+  
   ];
   constructor() { }
 
