@@ -12,7 +12,7 @@ export class RecipeListComponent implements OnInit {
     new Recipe('Samosa',
     'Samosa is a deep fried pastry with aspiced filling usually made with potatoes, spices and herbs. Sometimes there are also made with minced meat.',
     'https://upload.wikimedia.org/wikipedia/commons/3/3d/Samosa_Recipe_-_A_Mouth_Watering_Indian_Snack_Recipe_By_Sonia_Goyal_%2831078600701%29.jpg'),
-    new Recipe('Samosa',
+    new Recipe('Another Samosa',
     'Samosa is a deep fried pastry with aspiced filling usually made with potatoes, spices and herbs. Sometimes there are also made with minced meat.',
     'https://upload.wikimedia.org/wikipedia/commons/3/3d/Samosa_Recipe_-_A_Mouth_Watering_Indian_Snack_Recipe_By_Sonia_Goyal_%2831078600701%29.jpg')
   
@@ -23,7 +23,7 @@ export class RecipeListComponent implements OnInit {
   }
 
   onRecipeSelected(recipe: Recipe){
-    console.log(recipe, 'recipe')
+    // console.log(recipe, 'recipe')
     this.recipeWasSelected.emit(recipe);
 
   }
