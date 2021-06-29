@@ -19,7 +19,7 @@ export class RecipeService {
           new Ingredient('Peas', 2)
         ]),
         new Recipe('Pani Puri',
-        'Panipuri or fuchka or gupchup or golgappa or Pani ke Patake is a type of snack that originated in the Indian subcontinent, and is one of the most common street foods in India, Pakistan, Nepal and Bangladesh.',
+        'Panipuri or puchka or gupchup or golgappa or Pani ke Patake is a type of snack that originated in the Indian subcontinent, and is one of the most common street foods in India, Pakistan, Nepal and Bangladesh.',
         'https://cdn.pixabay.com/photo/2021/01/06/14/01/pani-puri-5894482_1280.jpg',
         [
           new Ingredient('Flour', 1),
@@ -36,7 +36,7 @@ export class RecipeService {
     }
 
     addIngredientsToShoppingList(ingredients: Ingredient[]){
-      console.log('hre')
+      // console.log('hre')
       this.slService.addIngredients(ingredients);
     }
 }
